@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 150px auto;
+}
+
+header {
+  display: inline;
+  text-align: center;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section form input {
+  width: 75%;
+  margin: 15px 0px;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  transition: all 1s ease-in;
+}
+
+section form input:hover {
+  border-bottom: 1px solid black;
+}
+
+section form button {
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(40, 158, 255);
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
